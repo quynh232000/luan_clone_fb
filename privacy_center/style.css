@@ -23,6 +23,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif !important;
 }
+.body {
+  background-color: #edf7f6;
+}
+.white-bg {
+  background-color: white !important;
+}
 
 a {
   text-decoration: none;
@@ -270,10 +276,10 @@ main {
 .icon-head {
   display: none;
 }
-.slide1 .ca-text{
+.slide1 .ca-text {
   min-height: 68px;
 }
-.slide2 .ca-content{
+.slide2 .ca-content {
   min-height: 140px;
 }
 
@@ -292,13 +298,13 @@ main {
   background-color: rgba(242, 242, 242, 1);
   cursor: pointer;
 }
-.modal-content{
+.modal-content {
   border-radius: 30px !important;
 }
-.modal-dialog{
+.modal-dialog {
   /* max-width: 86% !important; */
 }
-.modal{
+.modal {
   background-color: rgba(0, 0, 0, 0.2) !important;
 }
 /* responsive */
@@ -357,40 +363,40 @@ main {
     background-color: rgba(242, 242, 242, 1);
     cursor: pointer;
   }
-  .h-center{
+  .h-center {
     display: none;
   }
-  .b-top > div{
+  .b-top > div {
     font-weight: 600;
   }
-  .sub-head{
+  .sub-head {
     margin-top: 10px !important;
     color: rgb(10, 19, 23);
     font-weight: 400;
   }
-  .swiper{
+  .swiper {
     width: 640px;
   }
 }
 
 @media (max-width: 640px) {
-  .main{
+  .main {
     width: 100%;
     padding: 0 20px;
   }
-  
-  aside{
+
+  aside {
     margin-right: 0;
     padding-right: 0;
   }
-  .swiper,.swiper-slide{
+  .swiper,
+  .swiper-slide {
     width: 100%;
   }
-  .ca-text{
+  .ca-text {
     min-height: 36px !important;
   }
-  .ca-content{
+  .ca-content {
     min-height: 54px !important;
   }
-  
 }
