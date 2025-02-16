@@ -340,6 +340,7 @@ footer {
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 12px;
   background-color: white;
+  z-index: 99;
 }
 .btn-closeh {
   cursor: pointer;
