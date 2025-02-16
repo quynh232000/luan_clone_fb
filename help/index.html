@@ -1,0 +1,1516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="" style="position: relative;">
+    <!-- feedback -->
+    <div class="feedback">
+      <div>
+        <i data-visualcompletion="css-img" class="" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v4/yL/r/jULjUNTPecs.png&quot;); background-position: -17px -178px; background-size: auto; width: 16px; height: 16px; background-repeat: no-repeat; display: inline-block;"></i>
+      </div>
+      <div>Feedback</div>
+    </div>
+    <!-- feedback -->
+    <div class="m-hel" >
+      <div class="d-flex justify-content-between">
+        <div
+          style="color: rgb(5, 5, 5); font-weight: 600; font-size: 15px"
+        >
+          Was this helpful?
+        </div>
+
+        <div class="btn-closeh">
+          <i
+            data-visualcompletion="css-img"
+            class="x1b0d499 x1d69dk1"
+            style="
+              background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yU/r/QrTcH5MlEI3.png');
+              background-position: 0px -1121px;
+              background-size: auto;
+              width: 16px;
+              height: 16px;
+              background-repeat: no-repeat;
+              display: inline-block;
+            "
+          ></i>
+        </div>
+      </div>
+      <div class="help-btn">
+        <div class="help-btn-item">
+          <div class="btn-icon">
+            <i
+              data-visualcompletion="css-img"
+              class="x1b0d499 xep6ejk"
+              aria-hidden="true"
+              style="
+                background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yx/r/vWaMdF1VnyV.png');
+                background-position: 0px -7809px;
+                background-size: auto;
+                width: 16px;
+                height: 16px;
+                background-repeat: no-repeat;
+                display: inline-block;
+              "
+            ></i>
+          </div>
+          <div class="btn-icon-text">Yes</div>
+        </div>
+        <div class="help-btn-item">
+          <div class="btn-icon">
+            <i
+              data-visualcompletion="css-img"
+              class="x1b0d499 xep6ejk"
+              aria-hidden="true"
+              style="
+                background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yx/r/vWaMdF1VnyV.png');
+                background-position: 0px -7792px;
+                background-size: auto;
+                width: 16px;
+                height: 16px;
+                background-repeat: no-repeat;
+                display: inline-block;
+              "
+            ></i>
+          </div>
+          <div class="btn-icon-text">No</div>
+        </div>
+      </div>
+    </div>
+    
+
+    <header
+      style="padding: 10px 16px; background-color: white"
+      class="d-flex justify-content-between"
+    >
+      <a href="#" class="d-flex align-items-center gap-2">
+        <img
+          style="width: 40px; height: 40px"
+          src="./assets//images/logo.webp"
+          alt=""
+        />
+        <div style="font-weight: 500">Help Center</div>
+      </a>
+      <div class="d-flex head-right">
+        <div
+          class="h_right d-flex align-item-center gap-2"
+          style="padding: 7px 12px 9px; border-radius: 20px; width: 284px"
+        >
+          <svg
+            viewBox="0 0 16 16"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+            style="--color: var(--secondary-icon)"
+          >
+            <g fill-rule="evenodd" transform="translate(-448 -544)">
+              <g fill-rule="nonzero">
+                <path
+                  d="M10.743 2.257a6 6 0 1 1-8.485 8.486 6 6 0 0 1 8.485-8.486zm-1.06 1.06a4.5 4.5 0 1 0-6.365 6.364 4.5 4.5 0 0 0 6.364-6.363z"
+                  transform="translate(448 544)"
+                ></path>
+                <path
+                  d="M10.39 8.75a2.94 2.94 0 0 0-.199.432c-.155.417-.23.849-.172 1.284.055.415.232.794.54 1.103a.75.75 0 0 0 1.112-1.004l-.051-.057a.39.39 0 0 1-.114-.24c-.021-.155.014-.356.09-.563.031-.081.06-.145.08-.182l.012-.022a.75.75 0 1 0-1.299-.752z"
+                  transform="translate(448 544)"
+                ></path>
+                <path
+                  d="M9.557 11.659c.038-.018.09-.04.15-.064.207-.077.408-.112.562-.092.08.01.143.034.198.077l.041.036a.75.75 0 0 0 1.06-1.06 1.881 1.881 0 0 0-1.103-.54c-.435-.058-.867.018-1.284.175-.189.07-.336.143-.433.2a.75.75 0 0 0 .624 1.356l.066-.027.12-.061z"
+                  transform="translate(448 544)"
+                ></path>
+                <path
+                  d="m13.463 15.142-.04-.044-3.574-4.192c-.599-.703.355-1.656 1.058-1.057l4.191 3.574.044.04c.058.059.122.137.182.24.249.425.249.96-.154 1.41l-.057.057c-.45.403-.986.403-1.411.154a1.182 1.182 0 0 1-.24-.182zm.617-.616.444-.444a.31.31 0 0 0-.063-.052c-.093-.055-.263-.055-.35.024l.208.232.207-.206.006.007-.22.257-.026-.024.033-.034.025.027-.257.22-.007-.007zm-.027-.415c-.078.088-.078.257-.023.35a.31.31 0 0 0 .051.063l.205-.204-.233-.209z"
+                  transform="translate(448 544)"
+                ></path>
+              </g>
+            </g>
+          </svg>
+          <input
+            type="text"
+            placeholder="Search help articles.."
+            class="border-0 flex-1"
+            style="
+              background-color: transparent;
+              font-size: 15px;
+              outline: none;
+            "
+          />
+        </div>
+        <div
+          class="h_right rounded-circle bg-hover"
+          style="width: 40px; height: 40px"
+        >
+          <i
+            data-visualcompletion="css-img"
+            class="x1b0d499 xep6ejk"
+            style="
+              background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yx/r/vWaMdF1VnyV.png');
+              background-position: 0 -6057px;
+              background-size: auto;
+              width: 20px;
+              height: 20px;
+              background-repeat: no-repeat;
+              display: inline-block;
+            "
+          ></i>
+        </div>
+        <div
+          class="h_right radius-6 bg-hover"
+          style="padding: 0 12px; font-weight: 500"
+        >
+          English (UK)
+        </div>
+      </div>
+      <div class="icon-head">
+        <div class="icon-t">
+          <svg
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            width="1em"
+            height="1em"
+            aria-hidden="true"
+            class="x1lliihq x2lah0s x1k90msu x2h7rmj x1qfuztq x198g3q0 xxk0z11 xvy4d1p"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M16.618 18.032a9 9 0 1 1 1.414-1.414l3.675 3.675a1 1 0 0 1-1.414 1.414l-3.675-3.675zM18 11a7 7 0 1 1-14 0 7 7 0 0 1 14 0z"
+            ></path>
+          </svg>
+        </div>
+        <div
+          class="icon-t btn-show-nav"
+          data-bs-target="#exampleModalToggle"
+          data-bs-toggle="modal"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            width="1em"
+            height="1em"
+            aria-hidden="true"
+            class="x1lliihq x2lah0s x1k90msu x2h7rmj x1qfuztq x198g3q0 xxk0z11 xvy4d1p"
+          >
+            <path
+              d="M4 5a1 1 0 0 0 0 2h16a1 1 0 1 0 0-2H4zM3 12a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1zM3 18a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </header>
+    
+    <div class="main" id="main" style="position: relative;">
+      <div class="nav-mobile">
+        <aside class="sidebar-mobile scrollbar" style="font-weight: 500">
+          <!-- item -->
+          <div class="nav-group">
+            <div
+              class="d-flex align-items-center gap-2 nav-item"
+              style="padding: 12px 8px"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+                style="width: 36px; height: 36px"
+              >
+                <i
+                  data-visualcompletion="css-img"
+                  class="x1b0d499 xep6ejk"
+                  aria-hidden="true"
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yx/r/vWaMdF1VnyV.png');
+                    background-position: 0 -5700px;
+                    background-size: auto;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></i>
+              </div>
+              <div class="flex-1">Using Facebook</div>
+              <div>
+                <i
+                  data-visualcompletion="css-img"
+                  class="x1b0d499 x1d69dk1"
+                  aria-hidden="true"
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                    background-position: 0 -531px;
+                    background-size: auto;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></i>
+              </div>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="nav-group">
+            <div
+              class="d-flex align-items-center gap-2 nav-item"
+              style="padding: 12px 8px"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+                style="width: 36px; height: 36px"
+              >
+                <i
+                  data-visualcompletion="css-img"
+                  class="x1b0d499 xep6ejk"
+                  aria-hidden="true"
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yx/r/vWaMdF1VnyV.png');
+                    background-position: 0 -6309px;
+                    background-size: auto;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></i>
+              </div>
+              <div class="flex-1">Managing your account</div>
+              <div>
+                <i
+                  data-visualcompletion="css-img"
+                  class="x1b0d499 x1d69dk1"
+                  aria-hidden="true"
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                    background-position: 0 -531px;
+                    background-size: auto;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></i>
+              </div>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="nav-group">
+            <!-- item -->
+            <a
+              href="#"
+              class="d-flex align-items-center gap-2 nav-item"
+              style="padding: 12px 8px"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+                style="width: 36px; height: 36px"
+              >
+                <i
+                  data-visualcompletion="css-img"
+                  class="x1b0d499 xep6ejk"
+                  aria-hidden="true"
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                    background-position: 0px -909px;
+                    background-size: auto;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></i>
+              </div>
+              <div class="flex-1">Privacy, safety and security</div>
+              <div>
+                <i
+                  data-visualcompletion="css-img"
+                  class="x1b0d499 x1d69dk1"
+                  aria-hidden="true"
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                    background-position: 0 -531px;
+                    background-size: auto;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></i>
+              </div>
+            </a>
+            <div class="nav-item-list">
+              <!-- item  -->
+              <a
+                href="#"
+                class="d-flex align-items-center gap-2 nav-item"
+                style="padding: 12px 8px"
+              >
+                <div
+                  class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+                  style="width: 36px; height: 36px"
+                >
+                  <i
+                    data-visualcompletion="css-img"
+                    class="x1b0d499 xep6ejk"
+                    aria-hidden="true"
+                    style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                      background-position: 0px -909px;
+                      background-size: auto;
+                      width: 20px;
+                      height: 20px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "
+                  ></i>
+                </div>
+                <div class="flex-1">Your privacy</div>
+                <div class="nav-item-down">
+                  <i
+                    data-visualcompletion="css-img"
+                    class="x1b0d499 x1d69dk1"
+                    aria-hidden="true"
+                    style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                      background-position: 0 -531px;
+                      background-size: auto;
+                      width: 20px;
+                      height: 20px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "
+                  ></i>
+                </div>
+              </a>
+              <!-- item  -->
+              <a
+                href="#"
+                class="d-flex align-items-center gap-2 nav-item"
+                style="padding: 12px 8px"
+              >
+                <div
+                  class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+                  style="width: 36px; height: 36px"
+                >
+                  <i
+                    data-visualcompletion="css-img"
+                    class="x1b0d499 xep6ejk"
+                    aria-hidden="true"
+                    style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/y_/r/dC8PPhqP8Nu.png');
+                      background-position: 0 -504px;
+                      background-size: auto;
+                      width: 20px;
+                      height: 20px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "
+                  ></i>
+                </div>
+                <div class="flex-1">Staying safe</div>
+                <div class="nav-item-down">
+                  <i
+                    data-visualcompletion="css-img"
+                    class="x1b0d499 x1d69dk1"
+                    aria-hidden="true"
+                    style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                      background-position: 0 -531px;
+                      background-size: auto;
+                      width: 20px;
+                      height: 20px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "
+                  ></i>
+                </div>
+              </a>
+              <!-- item  -->
+              <div class="nav-group active">
+                <!-- item  -->
+                <a
+                  href="#"
+                  class="d-flex align-items-center gap-2 nav-item active"
+                  style="padding: 12px 8px"
+                >
+                  <div
+                    class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+                    style="width: 36px; height: 36px"
+                  >
+                    <i
+                      data-visualcompletion="css-img"
+                      class="x1b0d499 xaj1gnb"
+                      aria-hidden="true"
+                      style="
+                        color: white;
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                        background-position: 0 -951px;
+                        background-size: auto;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></i>
+                  </div>
+                  <div class="flex-1">Keeping your account secure</div>
+                  <div class="nav-item-down">
+                    <i
+                      data-visualcompletion="css-img"
+                      class="x1b0d499 x1d69dk1"
+                      aria-hidden="true"
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                        background-position: 0 -531px;
+                        background-size: auto;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></i>
+                  </div>
+                </a>
+                <div class="nav-item-list nav-item-small">
+                  <!-- item small -->
+                  <a
+                    href="#"
+                    class="d-flex align-items-center gap-2 nav-item nav-item-small"
+                    style="padding: 12px 8px"
+                  >
+                    <div class="flex-1">Security features and tips</div>
+                  </a>
+                  <a
+                    href="#"
+                    class="d-flex align-items-center gap-2 nav-item nav-item-small"
+                    style="padding: 12px 8px"
+                  >
+                    <div class="flex-1">
+                      Login alerts and two-factor authentication
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="d-flex align-items-center gap-2 nav-item nav-item-small"
+                    style="padding: 12px 8px"
+                  >
+                    <div class="flex-1">Avoid spam and scams</div>
+                  </a>
+                </div>
+              </div>
+              <div class="nav-group">
+                <!-- item  -->
+                <a
+                  href="#"
+                  class="d-flex align-items-center gap-2 nav-item"
+                  style="padding: 12px 8px"
+                >
+                  <div
+                    class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+                    style="width: 36px; height: 36px"
+                  >
+                    <i
+                      data-visualcompletion="css-img"
+                      class="x1b0d499 xep6ejk"
+                      aria-hidden="true"
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/y_/r/dC8PPhqP8Nu.png');
+                        background-position: 0 -252px;
+                        background-size: auto;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></i>
+                  </div>
+                  <div class="flex-1">Hacked and impersonation accounts</div>
+                </a>
+              </div>
+              <div class="nav-group">
+                <!-- item  -->
+                <a
+                  href="#"
+                  class="d-flex align-items-center gap-2 nav-item"
+                  style="padding: 12px 8px"
+                >
+                  <div
+                    class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+                    style="width: 36px; height: 36px"
+                  >
+                    <i
+                      data-visualcompletion="css-img"
+                      class="x1b0d499 xep6ejk"
+                      aria-hidden="true"
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/y_/r/dC8PPhqP8Nu.png');
+                        background-position: 0 -693px;
+                        background-size: auto;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></i>
+                  </div>
+                  <div class="flex-1">Shopping safety</div>
+                  <div class="nav-item-down">
+                    <i
+                      data-visualcompletion="css-img"
+                      class="x1b0d499 x1d69dk1"
+                      aria-hidden="true"
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                        background-position: 0 -531px;
+                        background-size: auto;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="nav-group">
+            <div
+              class="d-flex align-items-center gap-2 nav-item"
+              style="padding: 12px 8px"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+                style="width: 36px; height: 36px"
+              >
+                <i
+                  data-visualcompletion="css-img"
+                  class="x1b0d499 xep6ejk"
+                  aria-hidden="true"
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yz/r/7yYstxyroJL.png');
+                    background-position: 0 -629px;
+                    background-size: auto;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></i>
+              </div>
+              <div class="flex-1">Policies and reporting</div>
+              <div>
+                <i
+                  data-visualcompletion="css-img"
+                  class="x1b0d499 x1d69dk1"
+                  aria-hidden="true"
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                    background-position: 0 -531px;
+                    background-size: auto;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></i>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <aside class="sidebar scrollbar" style="font-weight: 500">
+        <!-- item -->
+        <div class="nav-group">
+          <div
+            class="d-flex align-items-center gap-2 nav-item"
+            style="padding: 12px 8px"
+          >
+            <div
+              class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+              style="width: 36px; height: 36px"
+            >
+              <i
+                data-visualcompletion="css-img"
+                class="x1b0d499 xep6ejk"
+                aria-hidden="true"
+                style="
+                  background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yx/r/vWaMdF1VnyV.png');
+                  background-position: 0 -5700px;
+                  background-size: auto;
+                  width: 20px;
+                  height: 20px;
+                  background-repeat: no-repeat;
+                  display: inline-block;
+                "
+              ></i>
+            </div>
+            <div class="flex-1">Using Facebook</div>
+            <div>
+              <i
+                data-visualcompletion="css-img"
+                class="x1b0d499 x1d69dk1"
+                aria-hidden="true"
+                style="
+                  background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                  background-position: 0 -531px;
+                  background-size: auto;
+                  width: 20px;
+                  height: 20px;
+                  background-repeat: no-repeat;
+                  display: inline-block;
+                "
+              ></i>
+            </div>
+          </div>
+        </div>
+        <!-- item -->
+        <div class="nav-group">
+          <div
+            class="d-flex align-items-center gap-2 nav-item"
+            style="padding: 12px 8px"
+          >
+            <div
+              class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+              style="width: 36px; height: 36px"
+            >
+              <i
+                data-visualcompletion="css-img"
+                class="x1b0d499 xep6ejk"
+                aria-hidden="true"
+                style="
+                  background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yx/r/vWaMdF1VnyV.png');
+                  background-position: 0 -6309px;
+                  background-size: auto;
+                  width: 20px;
+                  height: 20px;
+                  background-repeat: no-repeat;
+                  display: inline-block;
+                "
+              ></i>
+            </div>
+            <div class="flex-1">Managing your account</div>
+            <div>
+              <i
+                data-visualcompletion="css-img"
+                class="x1b0d499 x1d69dk1"
+                aria-hidden="true"
+                style="
+                  background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                  background-position: 0 -531px;
+                  background-size: auto;
+                  width: 20px;
+                  height: 20px;
+                  background-repeat: no-repeat;
+                  display: inline-block;
+                "
+              ></i>
+            </div>
+          </div>
+        </div>
+        <!-- item -->
+        <div class="nav-group active">
+          <!-- item -->
+          <a
+            href="#"
+            class="d-flex align-items-center gap-2 nav-item"
+            style="padding: 12px 8px"
+          >
+            <div
+              class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+              style="width: 36px; height: 36px"
+            >
+              <i
+                data-visualcompletion="css-img"
+                class="x1b0d499 xep6ejk"
+                aria-hidden="true"
+                style="
+                  background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                  background-position: 0px -909px;
+                  background-size: auto;
+                  width: 20px;
+                  height: 20px;
+                  background-repeat: no-repeat;
+                  display: inline-block;
+                "
+              ></i>
+            </div>
+            <div class="flex-1">Privacy, safety and security</div>
+            <div>
+              <i
+                data-visualcompletion="css-img"
+                class="x1b0d499 x1d69dk1"
+                aria-hidden="true"
+                style="
+                  background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                  background-position: 0 -531px;
+                  background-size: auto;
+                  width: 20px;
+                  height: 20px;
+                  background-repeat: no-repeat;
+                  display: inline-block;
+                "
+              ></i>
+            </div>
+          </a>
+          <div class="nav-item-list">
+            <!-- item  -->
+            <a
+              href="#"
+              class="d-flex align-items-center gap-2 nav-item"
+              style="padding: 12px 8px"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+                style="width: 36px; height: 36px"
+              >
+                <i
+                  data-visualcompletion="css-img"
+                  class="x1b0d499 xep6ejk"
+                  aria-hidden="true"
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                    background-position: 0px -909px;
+                    background-size: auto;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></i>
+              </div>
+              <div class="flex-1">Your privacy</div>
+              <div class="nav-item-down">
+                <i
+                  data-visualcompletion="css-img"
+                  class="x1b0d499 x1d69dk1"
+                  aria-hidden="true"
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                    background-position: 0 -531px;
+                    background-size: auto;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></i>
+              </div>
+            </a>
+            <!-- item  -->
+            <a
+              href="#"
+              class="d-flex align-items-center gap-2 nav-item"
+              style="padding: 12px 8px"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+                style="width: 36px; height: 36px"
+              >
+                <i
+                  data-visualcompletion="css-img"
+                  class="x1b0d499 xep6ejk"
+                  aria-hidden="true"
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/y_/r/dC8PPhqP8Nu.png');
+                    background-position: 0 -504px;
+                    background-size: auto;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></i>
+              </div>
+              <div class="flex-1">Staying safe</div>
+              <div class="nav-item-down">
+                <i
+                  data-visualcompletion="css-img"
+                  class="x1b0d499 x1d69dk1"
+                  aria-hidden="true"
+                  style="
+                    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                    background-position: 0 -531px;
+                    background-size: auto;
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                  "
+                ></i>
+              </div>
+            </a>
+            <!-- item  -->
+            <div class="nav-group active">
+              <!-- item  -->
+              <a
+                href="#"
+                class="d-flex align-items-center gap-2 nav-item active"
+                style="padding: 12px 8px"
+              >
+                <div
+                  class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+                  style="width: 36px; height: 36px"
+                >
+                  <i
+                    data-visualcompletion="css-img"
+                    class="x1b0d499 xaj1gnb"
+                    aria-hidden="true"
+                    style="
+                      color: white;
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                      background-position: 0 -951px;
+                      background-size: auto;
+                      width: 20px;
+                      height: 20px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "
+                  ></i>
+                </div>
+                <div class="flex-1">Keeping your account secure</div>
+                <div class="nav-item-down">
+                  <i
+                    data-visualcompletion="css-img"
+                    class="x1b0d499 x1d69dk1"
+                    aria-hidden="true"
+                    style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                      background-position: 0 -531px;
+                      background-size: auto;
+                      width: 20px;
+                      height: 20px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "
+                  ></i>
+                </div>
+              </a>
+              <div class="nav-item-list nav-item-small">
+                <!-- item small -->
+                <a
+                  href="#"
+                  class="d-flex align-items-center gap-2 nav-item nav-item-small"
+                  style="padding: 12px 8px"
+                >
+                  <div class="flex-1">Security features and tips</div>
+                </a>
+                <a
+                  href="#"
+                  class="d-flex align-items-center gap-2 nav-item nav-item-small"
+                  style="padding: 12px 8px"
+                >
+                  <div class="flex-1">
+                    Login alerts and two-factor authentication
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="d-flex align-items-center gap-2 nav-item nav-item-small"
+                  style="padding: 12px 8px"
+                >
+                  <div class="flex-1">Avoid spam and scams</div>
+                </a>
+              </div>
+            </div>
+            <div class="nav-group">
+              <!-- item  -->
+              <a
+                href="#"
+                class="d-flex align-items-center gap-2 nav-item"
+                style="padding: 12px 8px"
+              >
+                <div
+                  class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+                  style="width: 36px; height: 36px"
+                >
+                  <i
+                    data-visualcompletion="css-img"
+                    class="x1b0d499 xep6ejk"
+                    aria-hidden="true"
+                    style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/y_/r/dC8PPhqP8Nu.png');
+                      background-position: 0 -252px;
+                      background-size: auto;
+                      width: 20px;
+                      height: 20px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "
+                  ></i>
+                </div>
+                <div class="flex-1">Hacked and impersonation accounts</div>
+              </a>
+            </div>
+            <div class="nav-group">
+              <!-- item  -->
+              <a
+                href="#"
+                class="d-flex align-items-center gap-2 nav-item"
+                style="padding: 12px 8px"
+              >
+                <div
+                  class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+                  style="width: 36px; height: 36px"
+                >
+                  <i
+                    data-visualcompletion="css-img"
+                    class="x1b0d499 xep6ejk"
+                    aria-hidden="true"
+                    style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/y_/r/dC8PPhqP8Nu.png');
+                      background-position: 0 -693px;
+                      background-size: auto;
+                      width: 20px;
+                      height: 20px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "
+                  ></i>
+                </div>
+                <div class="flex-1">Shopping safety</div>
+                <div class="nav-item-down">
+                  <i
+                    data-visualcompletion="css-img"
+                    class="x1b0d499 x1d69dk1"
+                    aria-hidden="true"
+                    style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                      background-position: 0 -531px;
+                      background-size: auto;
+                      width: 20px;
+                      height: 20px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "
+                  ></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- item -->
+        <div class="nav-group">
+          <div
+            class="d-flex align-items-center gap-2 nav-item"
+            style="padding: 12px 8px"
+          >
+            <div
+              class="d-flex justify-content-center align-items-center bg-gray-1 rounded-circle bg-hover nav-item-wrap"
+              style="width: 36px; height: 36px"
+            >
+              <i
+                data-visualcompletion="css-img"
+                class="x1b0d499 xep6ejk"
+                aria-hidden="true"
+                style="
+                  background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yz/r/7yYstxyroJL.png');
+                  background-position: 0 -629px;
+                  background-size: auto;
+                  width: 20px;
+                  height: 20px;
+                  background-repeat: no-repeat;
+                  display: inline-block;
+                "
+              ></i>
+            </div>
+            <div class="flex-1">Policies and reporting</div>
+            <div>
+              <i
+                data-visualcompletion="css-img"
+                class="x1b0d499 x1d69dk1"
+                aria-hidden="true"
+                style="
+                  background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/4ODe8vvGWyf.png');
+                  background-position: 0 -531px;
+                  background-size: auto;
+                  width: 20px;
+                  height: 20px;
+                  background-repeat: no-repeat;
+                  display: inline-block;
+                "
+              ></i>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main class="content scroll">
+        <div class="c-top">
+          <div class="c-top-body" style="padding: 32px">
+            <div
+              class="d-flex justify-content-center top-img"
+              style="margin-bottom: 8px"
+            >
+              <img
+                src="./assets/images/download (1).png"
+                style="width: 604px"
+                alt=""
+              />
+            </div>
+            <div
+              class="d-flex justify-content-between align-items-center text-white"
+            >
+              <div class="text-top" style="font-weight: 500; font-size: 28px">
+                Keeping your account secure
+              </div>
+              <div class="d-flex align-items-center btn-link">
+                <div style="font-weight: 300">
+                  <i class="fa-solid fa-link"></i>
+                </div>
+                <div>Copy link</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="c-mid">
+          <div>
+            Security is built into every Facebook product and we offer several
+            <a href="#" class="text-primary">security features</a>, such as
+            <a href="#" class="text-primary"
+              >login alerts and two-factor authentication</a
+            >, to help you add an extra layer of protection to your account. You
+            can also review and update your
+            <a href="#" class="text-primary">security settings</a> at any time.
+          </div>
+          <div style="margin: 10px 0 36px" class="">
+            Learn more about what you can do to
+            <a href="#" class="text-primary">keep your account secure.</a>
+          </div>
+
+          <div class="c-mid-border">
+            <strong style="font-size: 20px" class="c-title-h"
+              >Popular articles</strong
+            >
+            <div class="article m-hidden">
+              <a href="#"> Keep your Facebook account secure </a>
+              <a href="#"
+                >What can I do to keep my Facebook account secure when using
+                payments in messages?</a
+              >
+              <a href=""
+                >Wait 24 hours to access your Facebook account for security
+                check</a
+              >
+              <a href="">Security features and tips</a>
+            </div>
+            <div class="article m-show">
+              <a href="#">
+                <div>Security features and tips</div>
+                <div>
+                  <i
+                    data-visualcompletion="css-img"
+                    class="x1b0d499 xep6ejk"
+                    style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yU/r/QrTcH5MlEI3.png');
+                      background-position: 0px -552px;
+                      background-size: auto;
+                      width: 20px;
+                      height: 20px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "
+                  ></i>
+                </div>
+              </a>
+              <a href="#"
+                ><div>Login alerts and two-factor authentication</div>
+                <div>
+                  <i
+                    data-visualcompletion="css-img"
+                    class="x1b0d499 xep6ejk"
+                    style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yU/r/QrTcH5MlEI3.png');
+                      background-position: 0px -552px;
+                      background-size: auto;
+                      width: 20px;
+                      height: 20px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "
+                  ></i></div
+              ></a>
+              <a href=""
+                ><div>Avoid spam and scams</div>
+                <div>
+                  <i
+                    data-visualcompletion="css-img"
+                    class="x1b0d499 xep6ejk"
+                    style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yU/r/QrTcH5MlEI3.png');
+                      background-position: 0px -552px;
+                      background-size: auto;
+                      width: 20px;
+                      height: 20px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "
+                  ></i>
+                </div>
+              </a>
+            </div>
+
+            <!-- helfull -->
+            <div class="m-help" style="margin-bottom: 36px">
+              <div class="d-flex justify-content-between">
+                <div
+                  style="color: rgb(5, 5, 5); font-weight: 600; font-size: 15px"
+                >
+                  Was this helpful?
+                </div>
+
+                <div>
+                  <i
+                    data-visualcompletion="css-img"
+                    class="x1b0d499 x1d69dk1"
+                    style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yU/r/QrTcH5MlEI3.png');
+                      background-position: 0px -1121px;
+                      background-size: auto;
+                      width: 16px;
+                      height: 16px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "
+                  ></i>
+                </div>
+              </div>
+              <div class="help-btn">
+                <div class="help-btn-item">
+                  <div class="btn-icon">
+                    <i
+                      data-visualcompletion="css-img"
+                      class="x1b0d499 xep6ejk"
+                      aria-hidden="true"
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yx/r/vWaMdF1VnyV.png');
+                        background-position: 0px -7809px;
+                        background-size: auto;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></i>
+                  </div>
+                  <div class="btn-icon-text">Yes</div>
+                </div>
+                <div class="help-btn-item">
+                  <div class="btn-icon">
+                    <i
+                      data-visualcompletion="css-img"
+                      class="x1b0d499 xep6ejk"
+                      aria-hidden="true"
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yx/r/vWaMdF1VnyV.png');
+                        background-position: 0px -7792px;
+                        background-size: auto;
+                        width: 16px;
+                        height: 16px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></i>
+                  </div>
+                  <div class="btn-icon-text">No</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="article-mobile">
+              <strong style="font-size: 20px" class="m-po-head"
+                ><div class="m-po-head-icon">
+                  <i
+                    data-visualcompletion="css-img"
+                    class="x1b0d499 xep6ejk"
+                    aria-hidden="true"
+                    style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yx/r/vWaMdF1VnyV.png');
+                      background-position: 0px -3351px;
+                      background-size: auto;
+                      width: 24px;
+                      height: 24px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "
+                  ></i>
+                </div>
+                <div class="m-po-text">Popular articles</div></strong
+              >
+              <div class="list-aricle-m">
+                <a href="#">
+                  <div>Keep your Facebook account secure</div>
+                  <div>
+                    <i
+                      data-visualcompletion="css-img"
+                      class="x1b0d499 xep6ejk"
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yU/r/QrTcH5MlEI3.png');
+                        background-position: 0px -552px;
+                        background-size: auto;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></i></div
+                ></a>
+                <a href="#"
+                  ><div>
+                    What can I do to keep my Facebook account secure when using
+                    payments in messages?
+                  </div>
+                  <div>
+                    <i
+                      data-visualcompletion="css-img"
+                      class="x1b0d499 xep6ejk"
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yU/r/QrTcH5MlEI3.png');
+                        background-position: 0px -552px;
+                        background-size: auto;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></i></div
+                ></a>
+                <a href=""
+                  ><div>
+                    Wait 24 hours to access your Facebook account for security
+                    check
+                  </div>
+                  <div>
+                    <i
+                      data-visualcompletion="css-img"
+                      class="x1b0d499 xep6ejk"
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yU/r/QrTcH5MlEI3.png');
+                        background-position: 0px -552px;
+                        background-size: auto;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></i></div
+                ></a>
+                <a href=""
+                  ><div>Security features and tips</div>
+                  <div>
+                    <i
+                      data-visualcompletion="css-img"
+                      class="x1b0d499 xep6ejk"
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yU/r/QrTcH5MlEI3.png');
+                        background-position: 0px -552px;
+                        background-size: auto;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></i></div
+                ></a>
+              </div>
+            </div>
+
+            <strong style="font-size: 20px">Related topics</strong>
+            <div class="relate d-flex justify-content-between mt-1">
+              <!-- item -->
+              <div class="relate-item flex-1 p-2">
+                <div class="relate-item-wrap">
+                  <div
+                    style="margin-bottom: 16px"
+                    class="d-flex justify-content-between"
+                  >
+                    <img
+                      width="100"
+                      height="100"
+                      src="https://www.facebook.com/images/help/fbhc_redesign/card_images/yourprivacy.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="" style="font-weight: 500">Your privacy</div>
+                  <div class="relate-item-text text-line-3">
+                    Learn how privacy settings help you connect and share with
+                    people that you know and trust.
+                  </div>
+                  <div class="i-next">
+                    <i
+                      data-visualcompletion="css-img"
+                      class="x1b0d499 xep6ejk"
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yU/r/QrTcH5MlEI3.png');
+                        background-position: 0 -552px;
+                        background-size: auto;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="relate-item flex-1 p-2">
+                <div class="relate-item-wrap">
+                  <div
+                    style="margin-bottom: 16px"
+                    class="d-flex justify-content-between"
+                  >
+                    <img
+                      width="100"
+                      height="100"
+                      src="https://static.xx.fbcdn.net/assets/?revision=607707068609958&name=desktop-names-on-facebook-icon&density=1"
+                      alt=""
+                    />
+                  </div>
+                  <div class="" style="font-weight: 500">Account settings</div>
+                  <div class="relate-item-text text-line-3">
+                    Learn how to adjust your settings, change your username and
+                    choose a legacy contact.
+                  </div>
+                  <div class="i-next">
+                    <i
+                      data-visualcompletion="css-img"
+                      class="x1b0d499 xep6ejk"
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yU/r/QrTcH5MlEI3.png');
+                        background-position: 0 -552px;
+                        background-size: auto;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="relate-item flex-1 p-2">
+                <div class="relate-item-wrap">
+                  <div
+                    style="margin-bottom: 16px"
+                    class="d-flex justify-content-between"
+                  >
+                    <img
+                      width="100"
+                      height="100"
+                      src="https://www.facebook.com/images/help/fbhc_redesign/card_images/reportingabuse.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="" style="font-weight: 500">Reporting abuse</div>
+                  <div class="relate-item-text text-line-3">
+                    Learn how to report something that goes against the Facebook
+                    Community Standards.
+                  </div>
+                  <div class="i-next">
+                    <i
+                      data-visualcompletion="css-img"
+                      class="x1b0d499 xep6ejk"
+                      style="
+                        background-image: url('https://static.xx.fbcdn.net/rsrc.php/v4/yU/r/QrTcH5MlEI3.png');
+                        background-position: 0 -552px;
+                        background-size: auto;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                      "
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="footer">
+            <div class="footer-top">
+              <div class="f-item">
+                <div><a href="#">About</a></div>
+                <div class="m-show"><a href="#">Terms and policies</a></div>
+                <div><a href="#">Ad choices</a></div>
+                <div><a href="#">Create ad</a></div>
+              </div>
+              <div class="f-item">
+                <div><a href="#">Privacy</a></div>
+                <div><a href="#">Careers</a></div>
+                <div class="m-show"><a href="#">Cookies</a></div>
+                <div><a href="#">Create Page</a></div>
+              </div>
+              <div class="f-item m-hidden">
+                <div><a href="#"> Terms and policies</a></div>
+                <div><a href="#">Cookies</a></div>
+              </div>
+            </div>
+            <div class="footer-bottom d-flex justify-content-between">
+              <div>
+                <img
+                  width="100"
+                  src="https://static.xx.fbcdn.net/rsrc.php/v4/yF/r/h9b1AHfIb8K.png"
+                  alt=""
+                />
+              </div>
+              <div style="font-size: 13px; color: rgb(101, 103, 107)">
+                © 2025 Meta
+              </div>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- script -->
+    <script>
+      $(".nav-group").on("click", function () {
+        // $('.nav-group').removeClass('active');
+        $(this).addClass("active");
+      });
+
+      $(".nav-item").on("click", function () {
+        $(".nav-item").removeClass("active");
+        $(".nav-group").removeClass("active");
+        $(this).addClass("active");
+        $(this).closest(".nav-group").addClass("active");
+      });
+      $('.btn-closeh').on("click", function () {
+        $(this).closest('.m-hel').remove()
+      })
+
+      // show nav mobile
+      // nav-mobile
+      $('.btn-show-nav').click(function(){
+        $('.nav-mobile').toggleClass('active')
+      })
+    </script>
+  </body>
+</html>
