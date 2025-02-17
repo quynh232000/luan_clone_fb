@@ -21,14 +21,24 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Grey+Qo&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Grey+Qo&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- <link href="https://db.onlinewebfonts.com/c/017309c39c566a95314c56afedcb1455?family=Associate+Sans" rel="stylesheet"> -->
+    <!-- <link href="https://db.onlinewebfonts.com/c/0c5e6f133b0b25edfed47aca4ab57676?family=Segoe+UI+Historic" rel="stylesheet"> -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="body">
+  <body class="body1">
     <div class="btn-closes">
       <svg
         viewBox="0 0 24 24"
@@ -1506,29 +1516,27 @@
           prevEl: ".swiper-button-prev",
         },
       });
-   
-      // script 
 
-      $(document).on('click','.nav-item',function(){
-        if(!$(this).parent().hasClass('nav-list-item')){
-          $('.nav-item-wrap').removeClass('active');
-          $('.nav-item').removeClass('active')
-        }else{
-          $(this).parent().find('.nav-item-more').removeClass('active');
+      // script
+
+      $(document).on("click", ".nav-item", function () {
+        if (!$(this).parent().hasClass("nav-list-item")) {
+          $(".nav-item-wrap").removeClass("active");
+          $(".nav-item").removeClass("active");
+        } else {
+          $(this).parent().find(".nav-item-more").removeClass("active");
         }
-        if($(this).hasClass('active')){
-          $(this).removeClass('active');
-          $(this).parent().removeClass('active');
-        }else{
-          $(this).addClass('active');
-          $(this).parent().addClass('active');
+        if ($(this).hasClass("active")) {
+          $(this).removeClass("active");
+          $(this).parent().removeClass("active");
+        } else {
+          $(this).addClass("active");
+          $(this).parent().addClass("active");
         }
-        
-      })
+      });
       setTimeout(() => {
-        $('.body').addClass('white-bg')
+        $(".body1").addClass("white-bg");
       }, 4000);
-   
-   </script>
+    </script>
   </body>
 </html>

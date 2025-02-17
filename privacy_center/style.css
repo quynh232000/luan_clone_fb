@@ -20,10 +20,26 @@ body {
   box-sizing: border-box;
   font-size: 15px;
   position: relative;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif !important;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif !important; */
+    /* font-family: "Sense W01 Medium"; */
+    /* font-family: "Associate Sans"; */
+    /* font-family: "Segoe UI Historic"; */
 }
-.body {
+@font-face {
+  font-family: 'Segoe UI Historic';
+  src: url('https://static.xx.fbcdn.net/rsrc.php/yQ/r/-pkMfchyeAZ.woff2') format('woff2');
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
+body {
+  font-family: 'Segoe UI Historic', sans-serif;
+}
+
+
+
+.body1 {
   background-color: #edf7f6;
 }
 .white-bg {

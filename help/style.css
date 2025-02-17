@@ -19,6 +19,16 @@ body {
   box-sizing: border-box;
   font-size: 17px;
 }
+@font-face {
+  font-family: 'Segoe UI Historic';
+  src: url('https://static.xx.fbcdn.net/rsrc.php/yQ/r/-pkMfchyeAZ.woff2') format('woff2');
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
+body {
+  font-family: 'Segoe UI Historic', sans-serif;
+}
 
 a {
   text-decoration: none;
